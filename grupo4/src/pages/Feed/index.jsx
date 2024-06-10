@@ -1,9 +1,11 @@
-import React from 'react'
+import HeaderFeed from "../../components/HeaderFeed";
 import "./style.css";
 
 function Feed() {
   return (
-    <div>Feed</div>
+    <div>
+      <HeaderFeed/>
+    </div>
   )
 }
 
