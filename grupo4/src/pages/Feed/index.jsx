@@ -1,10 +1,10 @@
 import React from 'react'
 import "./style.css";
 
-function About() {
+function Feed() {
   return (
-    <div>About</div>
+    <div>Feed</div>
   )
 }
 
-export default About
+export default Feed
