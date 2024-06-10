@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import './styles.css'; 
+import './style.css'; 
+
 
 function Update() {
   const [editMode, setEditMode] = useState(false);
