@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/coruja-logo.png"
+import Logo from "../../assets/coruja_logo.svg";
 import './style.css';
 
 function Header() {
@@ -9,7 +9,7 @@ function Header() {
       <div className="container">
         <div className="logo">
         <Link to={"/Feed"}>
-        <img src= {logo} alt="desenho de uma coruja" style={{ width: "50px" }} />
+        <img src= {Logo} alt="desenho de uma coruja" style={{ width: "50px" }} />
           <h1>OwlCard</h1>
           </Link>
         </div>
