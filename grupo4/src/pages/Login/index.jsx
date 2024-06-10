@@ -1,10 +1,10 @@
 import React from 'react'
 import "./style.css";
 
-function Home() {
+function Login() {
   return (
-    <div>Home</div>
+    <div>Login</div>
   )
 }
 
-export default Home
+export default Login
