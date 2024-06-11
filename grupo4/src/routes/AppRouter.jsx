@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from "react-router-dom";
-import Login from '../pages/Login';
+import Login from '../pages/Home';
 import Feed from '../pages/Feed';
 import Posts from '../pages/Post';
 import Update from '../pages/Update';
@@ -9,7 +9,7 @@ import Sobre from '../pages/Sobre';
 function AppRouter() {
   return (
     <Routes>
-        <Route path="/" element={<Login/>}></Route>
+        <Route path="/" element={<Home/>}></Route>
         <Route path="/feed" element={<Feed/>}></Route>
         <Route path="/post" element={<Posts/>}></Route>
         <Route path="/sobre" element={<Sobre/>}></Route>
