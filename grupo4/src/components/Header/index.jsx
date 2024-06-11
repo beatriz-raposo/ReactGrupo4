@@ -9,16 +9,15 @@ function Header() {
       <div className="container">
         <div className="logo">
         <Link to={"/Feed"}>
-        <img src= {Logo} alt="desenho de uma coruja" style={{ width: "50px" }} />
-          <h1>OwlCard</h1>
+        <img src= {Logo} alt="desenho de uma coruja" style={{ width: "60px" }} />
           </Link>
         </div>
 
-        {/* <div className="btn-newPost">
+        <div className="btn-newPost">
           <Link to={"/Feed"}>
-            <button>Seus FlashCards</button>
+            <button>Voltar</button>
           </Link>
-        </div> */}
+        </div>
       </div>
     </header>
   );

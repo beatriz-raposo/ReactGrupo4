@@ -9,14 +9,13 @@ function HeaderFeed() {
       <div className="container">
         <div className="logo">
         <Link to={"/Feed"}>
-        <img src= {Logo} alt="desenho de uma coruja" style={{ width: "50px" }} />
-          <h1>OwlCard</h1>
+        <img src= {Logo} alt="desenho de uma coruja" style={{ width: "60px" }} />
           </Link>
         </div>
 
         <div className="btn-newPost">
           <Link to={"/Post"}>
-            <button>Criar novo card</button>
+            <button>Criar</button>
           </Link>
         </div>
       </div>
