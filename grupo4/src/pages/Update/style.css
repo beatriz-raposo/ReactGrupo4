@@ -1,41 +1,68 @@
-/* style.css */
+
 .app-container {
   padding: 20px;
   transition: background-color 0.3s ease;
+  height: 1000px;
 }
 
 .app-container.geografia {
-  background-color: blue;
+  background-color: rgb(91, 91, 91);
 }
 
 .app-container.matematica {
-  background-color: red;
+  background-color: rgb(255, 25, 71);
 }
 
 .app-container.portugues {
-  background-color: orange;
+  background-color: rgb(29, 164, 255);
 }
 
 .app-container.quimica {
-  background-color: yellow;
+  background-color: rgb(155, 15, 134);
 }
 
 .app-container.biologia {
   background-color: green;
 }
 
+.app-container.historia{
+
+background-color: orange;
+
+}
+
+.app-container.fisica{
+
+  background-color: blue;
+
+  }
+
+  .app-container.sociologia{
+
+    background-color:yellow;
+
+    }
+
 .content {
   margin-top: 20px;
- 
+
+  
 }
 
 .flashcard {
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   padding: 20px;
   border-radius: 8px;
   background-color:#DCF7FF;
-  ;
+  width: 350px;
   margin: 20px 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-color: black;
+  background-color: #708991;
+  
 }
 
 .question-input {
@@ -46,6 +73,7 @@
   border: 4px solid #000000;
   border-radius: 6px;
   margin-bottom: 20px;
+  background-color: white;
 }
 
 .question {
@@ -56,6 +84,7 @@
   border: 4px solid #000000;
   border-radius: 6px;
   padding: 10px;
+  background-color: white;
 }
 
 .button-group {
@@ -66,13 +95,21 @@
 .button-group button {
   padding: 10px 20px;
   font-size: 16px;
-  border: none;
+  background-color: #DCF7FF;
   border-radius: 4px;
   cursor: pointer;
-  border: 3px;
+  border: 3px solid;
   border-color: black;
 }
 
 .button-group button:hover {
   background-color: #ddd;
+}
+
+.pergunta {
+ 
+  position: absolute;
+  right: 453px;
+  font-size: larger;
+  color: #000000;
 }
