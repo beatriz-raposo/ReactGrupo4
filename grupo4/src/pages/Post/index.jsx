@@ -1,8 +1,7 @@
 import React from 'react'
 import Header from "../../components/Header";
-import "./style.css";
 
-function Posts() {
+function Post() {
   return (
     <div>
       <Header/>
@@ -10,4 +9,4 @@ function Posts() {
   )
 }
 
-export default Posts
+export default Post
