@@ -23,7 +23,8 @@
     text-align: center;
     justify-content: center;
 }
-p{ 
+
+.card_text_sobre{ 
     word-wrap: break-word;
     display: flex;
     text-align: center;
@@ -53,7 +54,7 @@ p{
     text-align: center;
     margin-top: 50px;
 }
-.cards{
+.cards_sobre{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,7 +62,7 @@ p{
     flex-direction: row;
 }
 
-.card {
+.card_sobre {
     display: flex;
     position: relative;
     width: 250px;
