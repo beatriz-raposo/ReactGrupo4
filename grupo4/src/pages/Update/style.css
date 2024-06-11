@@ -1,8 +1,8 @@
 
 .app-container {
-  padding: 20px;
-  transition: background-color 0.3s ease;
   height: 1000px;
+  transition: background-color 0.3s ease;
+ 
 }
 
 .app-container.geografia {
@@ -107,9 +107,80 @@ background-color: orange;
 }
 
 .pergunta {
- 
-  position: absolute;
+  text-align: center;
+  color: #000000;
   right: 453px;
   font-size: larger;
-  color: #000000;
+ 
+}
+@media (max-width: 1200px) {
+  .flashcard {
+    width: 300px;
+  }
+
+  .pergunta {
+    font-size: large;
+    text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .flashcard {
+    width: 250px;
+    padding: 15px;
+  }
+
+  .button-group {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .button-group button {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .flashcard {
+    width: 200px;
+    padding: 10px;
+  }
+
+  .pergunta {
+    font-size: medium;
+  }
+
+  .question-input, .question {
+    height: 80px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .flashcard {
+    width: 150px;
+    padding: 5px;
+  }
+
+  .pergunta {
+    font-size: small;
+  }
+
+  .question-input, .question {
+    height: 60px;
+    font-size: 12px;
+  }
+
+  .button-group {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .button-group button {
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-bottom: 5px;
+    width: 100%;
+  }
 }
