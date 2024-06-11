@@ -1,10 +1,23 @@
-import React, { useState } from "react";
+import React, {  useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import './style.css';
 import HeaderFeed from "../../components/HeaderFeed";
+import axios from "axios";
 
 function Feed() {
   const [filter, setFilter] = useState("Todos");
+
+  const [posts, setPosts] = useState([]);
+
+  useEffect(() => {
+    axios
+      .get("http://localhost:8080/flash-cards")
+      .then((response) => {
+        console.log(response.data);
+        setPosts(response.data);
+      })
+      .catch(() => console.log("Erro na requisição!"));
+  }, []);
 
   const cards = [
     { title: "Português", text: "Este é um exemplo de pergunta dentro do flashcard.", color: "bg-info" },
