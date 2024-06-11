@@ -8,22 +8,22 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 const validationPost = yup.object().shape({
-  titulo: yup
+  matéria: yup
     .string()
     .required("Matéria Obrigatório")
     .max(40, "precisa ter 40 caracteres no máximo !"),
-  descricao: yup
+  pergunta: yup
     .string()
     .required("Pergunta Obrigatório")
     .max(100, "precisa ter 100 caracteres no máximo !"),
-    resposta: yup
+  resposta: yup
     .string()
     .required("Resposta Obrigatório")
     .max(500, "precisa ter 500 caracteres no máximo !"),
 });
 
 function Posts() {
-let navigate = useNavigate();
+  let navigate = useNavigate();
 
   const {
     register,
@@ -33,10 +33,10 @@ let navigate = useNavigate();
 
   const addPost = (data) =>
     axios
-      .post("https://665fa6d55425580055b0594f.mockapi.io/posts", data)
+      .post("http://localhost:8080/flash-cards", data)
       .then(() => {
         console.log("Deu tudo certo");
-        navigate('/');
+        navigate("/");
       })
       .catch(() => console.log("Problemas na requisição"));
 
@@ -50,8 +50,18 @@ let navigate = useNavigate();
           <form onSubmit={handleSubmit(addPost)}>
             <div className="fields">
               <label htmlFor="matéria">Matéria</label>
-              <input type="text" id="matéria" {...register("matéria")} />
-              <p className="error-message">{errors.matéria?.message}</p>
+              
+              <select class="custom-select" aria-label="Default select example">
+                <option selected>Clique aqui e selecione a matéria</option>
+                <option value="portugues">Português</option>
+                <option value="geografia">Geografia</option>
+                <option value="quimica">Química</option>
+                <option value="historia">História</option>
+                <option value="matematica">Matemática</option>
+                <option value="biologia">Biologia</option>
+                <input type="text" id="matéria" {...register("matéria")} />
+                <p className="error-message">{errors.matéria?.message}</p>
+              </select>
 
               <label htmlFor="pergunta">Pergunta</label>
               <input type="text" id="pergunta" {...register("pergunta")} />
@@ -68,7 +78,7 @@ let navigate = useNavigate();
               <p className="error-message">{errors.resposta?.message}</p>
 
               <div className="btn-post">
-                <button>Enviar</button>
+                <button>Publicar</button>
               </div>
             </div>
           </form>

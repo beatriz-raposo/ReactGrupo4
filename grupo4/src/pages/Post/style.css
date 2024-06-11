@@ -14,10 +14,11 @@ main {
 
 .card-post h1{
     font-family: Heebo;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     text-align: center;
 
-    color: black;
+    color:  black;
 
     font-size: 3rem;
     margin-bottom: 5px;
@@ -42,9 +43,12 @@ label {
     margin-bottom: 7px;
     font-size: 1.2rem;
 
-    color: #D2DAF5;
+    color:  black;
+
+
 
     font-family: Poppins;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 input, textarea {
@@ -82,7 +86,7 @@ textarea {
     font-size: 1.3rem;
 
     padding: 5px 50px;
-    color: black;
+    color:  black;
     background-color: #DCF7FF;
 
     border: 0;
@@ -98,5 +102,26 @@ textarea {
 }
 
 .error-message {
-    color: rgb(240, 47, 47);
+    font-family: Arial, Helvetica, sans-serif;
+    color: red
 }
+
+.custom-select {
+    padding: 10px 90px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    appearance: none; 
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    background-size: 16px;
+    cursor: pointer;
+  }
+  
+  
+  .custom-select:hover {
+    border-color: #999;
+  }
+
+  
