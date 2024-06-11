@@ -8,7 +8,7 @@
     scrollbar-color: black;
 
 }
-.container{
+.container_sobre{
     display: flex;
     padding: 50px;
     justify-content: space-around;

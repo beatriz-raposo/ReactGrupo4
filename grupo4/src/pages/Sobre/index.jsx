@@ -14,7 +14,7 @@ function Sobre() {
   return (
     <div>
       <Header />
-      <div className="container">
+      <div className="container_sobre">
         <div className="bloco_sobre">
           <div className="titulo_sobre">
             <br />
