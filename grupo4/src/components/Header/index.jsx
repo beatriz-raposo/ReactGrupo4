@@ -14,7 +14,7 @@ function Header() {
         </div>
 
         <div className="btn-newPost">
-          <Link to={"/Feed"}>
+          <Link to={"/"}>
             <button>Voltar</button>
           </Link>
         </div>
