@@ -14,11 +14,11 @@ function Header() {
           </Link>
         </div>
 
-        <div className="btn-newPost">
+        {/* <div className="btn-newPost">
           <Link to={"/Feed"}>
             <button>Seus FlashCards</button>
           </Link>
-        </div>
+        </div> */}
       </div>
     </header>
   );
