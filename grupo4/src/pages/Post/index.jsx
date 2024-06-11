@@ -8,10 +8,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 const validationPost = yup.object().shape({
-  matéria: yup
-    .string()
-    .required("Matéria Obrigatório")
-    .max(40, "precisa ter 40 caracteres no máximo !"),
+
   pergunta: yup
     .string()
     .required("Pergunta Obrigatório")
@@ -59,7 +56,7 @@ function Posts() {
                 <option value="historia">História</option>
                 <option value="matematica">Matemática</option>
                 <option value="biologia">Biologia</option>
-                <input type="text" id="matéria" {...register("matéria")} />
+                
                 <p className="error-message">{errors.matéria?.message}</p>
               </select>
 
