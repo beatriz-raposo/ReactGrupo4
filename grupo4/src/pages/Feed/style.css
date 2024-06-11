@@ -3,9 +3,12 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%)
+    transform: translate(-50%,-50%);
+    /* padding-top: 10rem; */
+    margin-top: 70px;
 }
 
 .caixa_cards{
     padding-left: 17rem;
+    padding-top: 30px;
 }
