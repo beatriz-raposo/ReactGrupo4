@@ -21,7 +21,7 @@ function Sobre() {
             <h1>O que é Owl-Card?</h1>
             <br />
             <div className="texto_sobre">
-              <p className="card_text_sobre">
+              <p>
                 Owl-Card é um projeto de organização pessoal que contém uma
                 maneira eficiente de revisão de estudos, utilizando os
                 popularmente conhecidos como 'Flash Cards' ou 'Cartões de
@@ -41,7 +41,7 @@ function Sobre() {
             <h1>Quais são os benefícios da Ferramenta?</h1>
             <br />
             <div className="texto_beneficios">
-              <p className="card_text_sobre">
+              <p>
                 O melhor método de fazer com que o nosso cérebro aprenda algum
                 conteúdo é fazer com que ele repita uma ação diversas vezes,
                 para que assim a memória de curto prazo se transforme em uma
@@ -71,7 +71,7 @@ function Sobre() {
               <img src={rafa} alt="Imagem de exemplo" className="card-image" />
 
               <div className="overlay">
-                <p className="card_text_sobre">
+                <p>
                   Me chamo Rafaela Beber, tenho 18 anos e estou cursando a
                   residência de software SERRATEC juntamente com o curso de
                   tecnologia da informação e comunicação da FAETERJ.
@@ -83,7 +83,7 @@ function Sobre() {
               <img src={bea} alt="Imagem de exemplo" className="card-image" />
 
               <div className="overlay">
-                <p className="card_text_sobre">
+                <p>
                    Me chamo Beatriz Raposo, tenho 22 anos e estou cursando a residência 
                   de software SERRATEC juntamente com o curso de publicidade e propaganda.</p>
               </div>
@@ -93,7 +93,7 @@ function Sobre() {
               <img src={edu} alt="Imagem de exemplo" className="card-image" />
 
               <div className="overlay">
-                <p className="card_text_sobre">
+                <p>
                   Me chamo Eduardo Manoel, tenho 18 anos e atualmente estou
                   cursando o Serratec em busca de conhecer essa área de
                   tecnologia e conseguir um emprego nessa área.
@@ -105,7 +105,7 @@ function Sobre() {
               <img src={iza} alt="Imagem de exemplo" className="card-image" />
 
                <div className="overlay">
-                <p className="card_text_sobre">
+                <p>
                   Me chamo Izabella Prandino de Lucca, tenho 18 anos e estudo programação
                   com o objetivo de me tornar uma desenvolvedora FullStack.
                   Atualmente sou residente em de TIC/Software do Serratec.
@@ -117,7 +117,7 @@ function Sobre() {
               <img src={felipe} alt="Imagem de exemplo" className="card-image" />
 
                <div className="overlay">
-                <p className="card_text_sobre">
+                <p>
                 Me chamo Felipe Cauê, tenho 19 anos e estou atualmente cursando 
                 a resistência em TIC/Software do SerraTec.
                 </p>
@@ -129,7 +129,7 @@ function Sobre() {
               <img src={amanda} alt="Imagem de exemplo" className="card-image" />
 
                <div className="overlay">
-                <p className="card_text_sobre">
+                <p>
                 Meu nome é Amanda Bernardes, tenho 27 anos, sou graduada em 
                 Relações Internacionais e estou cursando a residência em TIC/Software do SerraTec.
                 </p>

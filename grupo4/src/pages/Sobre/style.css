@@ -24,7 +24,7 @@
     justify-content: center;
 }
 
-.card_text_sobre{ 
+p{  
     word-wrap: break-word;
     display: flex;
     text-align: center;
@@ -49,7 +49,7 @@
     justify-content: center;
 }
 
-.titulo h2{
+.titulo_sobre h2{
     display: flex;
     text-align: center;
     margin-top: 50px;
@@ -96,7 +96,7 @@
     transition: opacity 0.3s ease;
   }
   
-  .card:hover .overlay {
+  .card_sobre:hover .overlay {
     opacity: 1;
   }
   .overlay p{
