@@ -33,13 +33,17 @@ function Update() {
       <Header />
       <div className="content">
         <select onChange={handleSubjectChange} value={selectedSubject}>
-          <option value="">Escolha uma disciplina</option>
+        <option value="">Escolha uma disciplina</option>
           <option value="geografia">Geografia</option>
           <option value="matematica">Matemática</option>
           <option value="portugues">Português</option>
           <option value="quimica">Química</option>
           <option value="biologia">Biologia</option>
+          <option value="historia">Historia</option>
+          <option value="fisica">Física</option>
+          <option value="sociologia">Sociologia</option>
         </select>
+        <div className='pergunta'>Pergunta</div>
         <div className="flashcard">
           {editMode ? (
             <textarea
