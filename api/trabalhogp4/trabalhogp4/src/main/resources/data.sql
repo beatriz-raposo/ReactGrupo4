@@ -1,0 +1,2 @@
+INSERT INTO usuario (nome, senha) VALUES ('user1', '$2a$10$VSNkf9uSMo/hYnjgRyzjCu.sTyd0ke1ECVxELvS9RY83h3H3C3N7K');
+INSERT INTO usuario (nome, senha) VALUES ('user2', '$2a$10$VSNkf9uSMo/hYnjgRyzjCu.sTyd0ke1ECVxELvS9RY83h3H3C3N7K');
