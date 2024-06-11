@@ -106,22 +106,4 @@ textarea {
     color: red
 }
 
-.custom-select {
-    padding: 10px 90px;
-    font-size: 16px;
-    text-align: center;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    appearance: none; 
-    background-repeat: no-repeat;
-    background-position: right 20px center;
-    background-size: 16px;
-    cursor: pointer;
-  }
-  
-  
-  .custom-select:hover {
-    border-color: #999;
-  }
-
   
